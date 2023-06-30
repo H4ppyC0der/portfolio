@@ -1,7 +1,7 @@
 .div-hero-section {
     background: url('../../assets/mayon.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     margin-top: 50px;
     height: 100dvh;
     width: 100%;
