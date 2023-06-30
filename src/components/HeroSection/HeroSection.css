@@ -45,17 +45,22 @@
 
 @media (max-width: 500px) {
     .div-hero-roles span {
-        width: 150px;
+        width: 200px;
 
     }
     .div-hero-name {
         margin-top: 50%;
+        font-size: large;
     }
     .div-hero-roles {
-        margin-top: 10%;
+       
+        margin: 10% auto;
     }
     .div-hero-details {
         margin-top: 20%;
+        padding: 20px;
+        text-align: justify;
+        text-justify: distribute;
     }
 
 }

@@ -11,7 +11,7 @@ export default function HeroSection() {
                 <div className='div-hero-roles'>
                     <span>
                         <Typewriter
-                            words={['Web Developer']}
+                            words={['Front-end']}
                             loop={1000}
                             cursor
                             cursorStyle='_'
@@ -22,7 +22,7 @@ export default function HeroSection() {
                     </span> |
                     <span>
                         <Typewriter
-                            words={['Virtual Assistant']}
+                            words={['Web Developer']}
                             loop={1000}
                             cursor
                             cursorStyle='_'
@@ -33,7 +33,7 @@ export default function HeroSection() {
                     </span> | 
                     <span>
                         <Typewriter
-                            words={['Teacher']}
+                            words={['Back-end']}
                             loop={1000}
                             cursor
                             cursorStyle='_'
