@@ -1,8 +1,8 @@
 import './Menu.css'
 
-export default function Menu() {
+export default function Menu(props) {
     return (
-        <div className='div-menu'>
+        <div className='div-menu' style={{display: props.display}}>
             <ul className='ul-menu'>
                     <li><a href='#'>HOME</a></li>
                     <li><a href='#'>PROJECTS</a></li>

@@ -6,10 +6,11 @@ import HeroSection from './components/HeroSection/HeroSection'
 import { useState } from 'react';
 
 function App() {
+  const [menuIcon, setMenuIcon] = useState('menu')
   return (
     <>
-    <Navbar />
-    <Menu />
+    <Navbar icon={menuIcon} onClick={()=>setMenuIcon(menuIcon === 'menu' ? 'close' : 'menu')}/>
+    <Menu display={menuIcon === 'menu' ? 'none' : 'block'}/>
     <HeroSection />
     </>
     

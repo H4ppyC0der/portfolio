@@ -1,5 +1,5 @@
 import './Navbar.css'
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <nav>
             <div className='nav-logo'>
@@ -16,8 +16,8 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className='nav-menu-icon'>
-                <span className="material-symbols-outlined menu-icon">
-                    menu
+                <span className="material-symbols-outlined menu-icon" onClick={props.onClick}>
+                    {props.icon}
                 </span>
             </div>
         </nav>
