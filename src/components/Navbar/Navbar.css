@@ -29,7 +29,7 @@ nav {
     width: fit-content;
     height: 100%;
     background-color: var(--dark-color);
-    padding: 0 5px;
+    padding: 0 10px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
