@@ -1,11 +1,9 @@
 import './Navbar.css'
-import logo from '../../assets/logo.png'
-
 export default function Navbar() {
     return (
         <nav>
             <div className='nav-logo'>
-                <img src={logo} alt=''/>
+                <div className='div-logo'>CHRIS<span>COSMOS</span></div>
             </div>
             <div className='div-ul'>
                 <ul>

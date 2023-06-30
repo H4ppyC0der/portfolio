@@ -15,16 +15,26 @@ nav {
 }
 
 .nav-logo {
+    
     height: 50px;
     width: 100%;
-    
+    font-size: larger;
+    color: var(--light-color);
+    font-weight: 900; 
 }
-img {
-    width: auto;
-    object-fit: contain;
+.div-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
     height: 100%;
+    background-color: var(--dark-color);
+    padding: 0 5px;
     border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;  
+    border-bottom-right-radius: 25px;
+}
+.div-logo span {
+    color: var(--light-accent-color);
 }
 
 ul {
