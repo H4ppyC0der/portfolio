@@ -1,9 +1,9 @@
 :root {
-  --dark-color: #0F172A;
-  --light-color: #F8FAFC;
-  --medium-background-color: #F1F5F9;
-  --dark-accent-color: #064E3B;
-  --light-accent-color: #059669;
+  --dark-color: rgb(15, 23, 42);
+  --light-color: rgb(248, 250, 252);
+  --medium-background-color: rgb(226, 232, 240);
+  --dark-accent-color: rgb(6, 78, 59);
+  --light-accent-color: rgb(16, 185, 129);
 }
 
 * {
