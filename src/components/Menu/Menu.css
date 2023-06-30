@@ -1,0 +1,23 @@
+.div-menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    width: fit-content;
+    z-index: 5;
+    
+}
+.ul-menu {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: var(--dark-accent-color);
+    padding: 30px;
+
+}
+.ul-menu > li > a:link, .ul-menu > li > a:visited {
+    color: var(--light-color);
+}

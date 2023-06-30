@@ -32,6 +32,7 @@ nav {
     padding: 0 10px;
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    text-shadow: 0 0 2px black;
 }
 .div-logo span {
     color: var(--light-accent-color);
