@@ -3,7 +3,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export default function HeroSection() {
     return (
-        <div className="div-hero-section">
+        <div className="div-hero-section" id='hero-section'>
             <div className='div-hero-content'>
                 <div className='div-hero-name'>
                     CHRISTIAN M. RODRIGUEZ
